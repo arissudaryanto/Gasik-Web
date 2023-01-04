@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse justify-content-center">
           <ul class="nav col-12 col-md-auto justify-content-center main-menu">
             <li>
-                <a href="/" class="nav-link">Home</a>
+                <a href="{{ route('index') }}" class="nav-link">Home</a>
               </li>
             <li>
               <a href="#services" class="nav-link">Fitur</a>
@@ -29,9 +29,9 @@
           </ul>
         </div>
         <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-          <a href="login.html" class="btn btn-warning text-dark me-2">Masuk</a>
-          <a href="request-demo.html" class="btn btn-primary">Daftar Sekarang</a>
+          <a href="https://app.gasik.id" class="btn btn-warning text-dark me-2" target="_blank">Masuk</a>
+          <a href="https://app.gasik.id/register" class="btn btn-primary"  target="_blank">Daftar Sekarang</a>
         </div>
       </div>
     </nav>
-  </header>
+</header>

@@ -204,7 +204,7 @@
                 <div class="col-lg-6 col-md-8">
                     <div class="feature-shape-img position-relative mt-5 mt-lg-0">
                         <div class="img-bg-shape position-absolute">
-                            <img src="{{ asset('img/integations/shape.svg') }}" alt="integations">
+                            <img src="{{ asset('img/shape/shape.svg') }}" alt="integations">
                         </div>
                         <img src="{{ asset('img/dashkit.png') }}" class="img-fluid skewed-img-right rounded-custom shadow-lg" alt="softtent">
                     </div>
@@ -289,7 +289,7 @@
                                     <div class="col-lg-5 col-md-6">
                                         <div class="author-img-wrap pt-5 ps-5">
                                             <div class="testimonial-video-wrapper position-relative">
-                                                <img src="{{ asset('img/testimonial/t-1.jpg') }}" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
+                                                <img src="{{ asset('img/testimonial/t-'.$item->id.'.jpg') }}" class="img-fluid rounded-custom shadow-lg" alt="testimonial author">
                                                 <div class="customer-info text-white d-flex align-items-center">
                                                     <a href="../www.youtube.com/watchaec0.html?v=hAP2QF--2Dg" class="video-icon popup-youtube text-decoration-none"><i class="fas fa-play"></i> <span class="text-white ms-2 small"> Watch Video</span></a>
                                                 </div>
@@ -311,7 +311,7 @@
                             <li class="nav-item" role="presentation">
                                 <div class="nav-link d-flex align-items-center rounded-custom border border-light border-2 testimonial-tab-link {{ ($item->status=='primary') ? 'active' : '' }}" data-bs-toggle="pill" data-bs-target="#testimonial-tab-{{ $item->id }}" role="tab" aria-selected="false">
                                     <div class="testimonial-thumb me-3">
-                                        <img src="{{ asset('img/testimonial/1.jpg') }}" width="50" class="rounded-circle" alt="testimonial thumb">
+                                        <img src="{{ asset('img/testimonial/'.$item->id.'.jpg') }}" width="50" class="rounded-circle" alt="testimonial thumb">
                                     </div>
                                     <div class="author-info">
                                         <h6 class="mb-0">{{ $item->name }}</h6>

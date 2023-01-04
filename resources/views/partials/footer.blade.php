@@ -91,10 +91,10 @@
                             <div class="footer-single-col">
                                 <h3>Tentang Kami</h3>
                                 <ul class="list-unstyled footer-nav-list mb-lg-0">
-                                    <li><a href="index-2.html" class="text-decoration-none">Home</a></li>
-                                    <li><a href="about-us.html" class="text-decoration-none">Fitur</a></li>
-                                    <li><a href="services.html" class="text-decoration-none">Mengapa Kami</a></li>
-                                    <li><a href="career.html" class="text-decoration-none">Harga</a></li>
+                                    <li><a href="{{ route('index') }}" class="text-decoration-none">Home</a></li>
+                                    <li><a href="{{ route('index') }}#feature" class="text-decoration-none">Fitur</a></li>
+                                    <li><a href="{{ route('index') }}#whyus" class="text-decoration-none">Mengapa Kami</a></li>
+                                    <li><a href="{{ route('pricing') }}#" class="text-decoration-none">Harga</a></li>
                                 </ul>
                             </div>
                         </div>
